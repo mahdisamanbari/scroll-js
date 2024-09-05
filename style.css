@@ -88,3 +88,20 @@ section img#crs{
     font-weight: 900;
     -webkit-text-stroke: 4px #112434;
 }
+.paragragh{
+    position: relative;
+    padding: 100px;
+    background: #bedbe5;
+    box-shadow: 0 0 0 2px #bedbe5;
+
+}
+.paragragh h2{
+    font-size: 3em;
+    color: #112434;
+    margin-bottom: 15px;
+}
+.paragragh p{
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #112434;
+}
