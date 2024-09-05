@@ -15,6 +15,11 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 30px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 100%;
 }
 
 .logo{
@@ -48,4 +53,38 @@ header{
 .active{
     background: #112434;
 
+}
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+section img#house{
+    z-index: 2;
+}
+section img#crs{
+    transform: scale(0.75);
+    top: 0;
+    bottom: 95%;
+    left: 14%;
+    margin: auto 0 auto;
+
+}
+#txt{
+    position: absolute;
+    left: -150px;
+    color: #fff;
+    z-index: 1;
+    font-size: 8em;
+    font-weight: 900;
+    -webkit-text-stroke: 4px #112434;
 }
